@@ -18,7 +18,7 @@ const Banner = () => {
           <div className="content-inner">
             <div className="inner-description">
               <p className="inner-title">
-                Hi, I'm <span>Mazen</span>
+                Hi, I&lsquo;m <span>Mazen</span>
                 <br /> Creative <strong>UI/UX Designer</strong>
               </p>
               <div className="inner-group">

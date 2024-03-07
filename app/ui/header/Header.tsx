@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="contente">
           <div className="header-logo">
-            <a href="">1'12</a>
+            <a href="">1&lsquo;12</a>
           </div>
           <div className="header-nav">
             <ul className="nav-bar">

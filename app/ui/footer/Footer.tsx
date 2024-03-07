@@ -23,7 +23,8 @@ const Footer = () => {
           </div>
           <div className="footer-para">
             <p>
-              Still, thinking? Let's start the conversation and get things going
+              Still, thinking? Let&lsquo;s start the conversation and get things
+              going
             </p>
             <div className="footer-email">
               <span>Email:</span> <a href="Email"> marcdev002@gmail.com</a>
