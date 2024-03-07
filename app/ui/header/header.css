@@ -1,0 +1,171 @@
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.section-header {
+  background-color: #0d131e;
+  padding: 15px 0;
+}
+.section-header .container .contente {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.section-header .container .contente .header-logo {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  color: #3bd189;
+}
+.section-header .container .contente .header-nav .icon-bars {
+  display: none;
+}
+.section-header .container .contente .header-nav .nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section-header .container .contente .header-nav .nav-bar .nav-group .nav-link {
+  position: relative;
+  letter-spacing: 2px;
+  display: flex;
+  gap: 10px;
+}
+.section-header .container .contente .header-nav .nav-bar .nav-group .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  background-color: #3bd189;
+  transition: 0.3s;
+}
+.section-header .container .contente .header-nav .nav-bar .nav-group .nav-link:hover {
+  color: #3bd189;
+}
+.section-header .container .contente .header-nav .nav-bar .nav-group .nav-link:hover::after {
+  color: #3bd189;
+  width: 100%;
+}
+.section-header .container .contente .header-link a {
+  padding: 8px;
+  font-weight: 500;
+  border: 1px solid #fe755d;
+  border-radius: 8px;
+  font-size: 15px;
+  color: w;
+  background-color: #fe755d;
+}
+
+/* respensive */
+@media (max-width: 480px) {
+  .section-header .container .contente {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-header .container .contente .header-logo {
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    color: #3bd189;
+  }
+  .section-header .container .contente .header-nav .icon-bars {
+    display: flex;
+  }
+  .section-header .container .contente .header-nav .icon-bars:hover {
+    color: #3bd189;
+    transition: 0.3s;
+  }
+  .section-header .container .contente .header-nav .nav-bar {
+    display: none;
+  }
+  .section-header .container .contente .header-link {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .section-header {
+    background-color: #0d131e;
+    padding: 15px 0;
+  }
+  .section-header .container .contente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+  }
+  .section-header .container .contente .header-logo {
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    color: #3bd189;
+  }
+  .section-header .container .contente .header-nav .icon-bars {
+    display: none;
+  }
+  .section-header .container .contente .header-nav .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+  }
+  .section-header .container .contente .header-nav .nav-bar .nav-group .nav-link {
+    position: relative;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-header .container .contente .header-nav .nav-bar .nav-group .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 2px;
+    background-color: #3bd189;
+    transition: 0.3s;
+  }
+  .section-header .container .contente .header-nav .nav-bar .nav-group .nav-link:hover {
+    color: #3bd189;
+  }
+  .section-header .container .contente .header-nav .nav-bar .nav-group .nav-link:hover::after {
+    color: #3bd189;
+    width: 100%;
+  }
+  .section-header .container .contente .header-link {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */
